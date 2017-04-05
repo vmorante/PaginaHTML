@@ -1,0 +1,10 @@
+#home {
+    background-image: url(../assets/img/avengers.jpg);
+    height: calc(100vh - 56px);
+    width: 100vw;
+    margin-top: 56px;
+}
+
+#home h1 {
+    visibility: hidden;
+}
