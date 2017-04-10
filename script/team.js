@@ -1,6 +1,6 @@
-'use strict'
-immediately invoked
-function() {
+'use strict';
+
+(function() {
     document.querySelector('#team .caption').addEventListener('click',
         function() { console.log(this); }, true);
     document.querySelector('#team .caption p').addEventListener('click',
@@ -18,4 +18,4 @@ function() {
 
         document.body.appendChild(btn);
     }
-}
+})();
