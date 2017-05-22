@@ -29,3 +29,8 @@
 #movies article p {
     width: 85%;
 }
+
+text-overflow: ellipsis;
+line-height: 1em;
+white-space:nowrap;
+overflow:hidden;
