@@ -34,3 +34,10 @@ text-overflow: ellipsis;
 line-height: 1em;
 white-space:nowrap;
 overflow:hidden;
+#movies #article.over {
+    border-style: dashed;
+}
+
+#movies #article {
+    transition: all 0.1s;
+}
