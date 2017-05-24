@@ -1,13 +1,14 @@
 #movies div {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
+    /*display: flex;
+flex-direction: row;
+align-items: stretch;
+*/
     width: 100%;
-    justify-content: space-around;
+    /* justify-content: space-around;*/
 }
 
 #movies article {
-    width: 40%;
+    /* width: 40%;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,3 +42,23 @@ overflow:hidden;
 #movies #article {
     transition: all 0.1s;
 }
+
+@media all and (max-width: 680px) {
+    #movies article img {
+        object-fit: contain;
+    }
+}
+
+
+/*
+@media all and (min-width: 481px) and (max-width: 960px) {
+    #movies article {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #movies article {
+        width: 33%;
+    }
+}*/

@@ -68,6 +68,18 @@
         sessionStorage.setItem('gender', $('input[name="gender"]').val());
         sessionStorage.setItem('birthdate', $('input[name="birthdate"]').val());
 
+        var user = {
+            name: $('input[name="name"]').val(),
+            email: $('input[name="email"]').val()
+        };
+
+        save(user);
+        var data = JSON.parse(JSON.stringify(user));
+        delete data.birthdate;
+        data.birthdate = undefined;
+
+
+
         // your code
         window.service.contact.send({
             name: $('input[name="name"]').val(),

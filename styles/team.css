@@ -5,6 +5,7 @@
 #team article {
     font-size: 0.9em;
     height: 70vh;
+    padding: 0;
 }
 
 #team article img {
@@ -77,3 +78,23 @@
         transform: translateY(0);
     }
 }
+
+/*@media all and (max-width: 960px) {
+    #team div {
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 960px) {
+    #team article {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #team article {
+        width: 33%;
+    }
+}
+*/
+
