@@ -1,0 +1,13 @@
+{
+  "name": "babel",
+  "authors": [
+    "Veronica <veronica.morante.pindado@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
